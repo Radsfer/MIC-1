@@ -880,14 +880,14 @@ applicable agreement for further details.
 	(pt 760 384)
 )
 (connector
-	(text "MIR[20]" (rect 577 336 626 350)(font "Arial" ))
-	(pt 520 352)
-	(pt 776 352)
-)
-(connector
 	(text "MIR[21]" (rect 572 304 621 318)(font "Arial" ))
 	(pt 520 320)
 	(pt 792 320)
+)
+(connector
+	(text "MIR[20]" (rect 577 344 626 358)(font "Arial" ))
+	(pt 520 352)
+	(pt 776 352)
 )
 (junction (pt 824 240))
 (junction (pt 808 280))

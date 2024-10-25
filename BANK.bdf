@@ -149,7 +149,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 776 296 952 312)
+	(rect 832 296 1008 312)
 	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
 	(text "MDR_OUT[31..0]" (rect 90 0 198 14)(font "Arial" ))
 	(pt 0 8)
@@ -165,7 +165,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 792 504 968 520)
+	(rect 856 504 1032 520)
 	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
 	(text "PC_OUT[31..0]" (rect 90 0 185 14)(font "Arial" ))
 	(pt 0 8)
@@ -181,7 +181,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 792 664 968 680)
+	(rect 856 664 1032 680)
 	(text "OUTPUT" (rect 1 0 51 13)(font "Arial" (font_size 6)))
 	(text "MBR_OUT[7..0]" (rect 90 0 189 14)(font "Arial" ))
 	(pt 0 8)
@@ -212,9 +212,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 520 112 744 240)
+	(rect 520 112 792 240)
 	(text "MAR" (rect 5 0 40 16)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 112 32 126)(font "Arial" ))
+	(text "inst" (rect 8 110 32 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -244,20 +244,20 @@ applicable agreement for further details.
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
-		(pt 224 32)
+		(pt 272 32)
 		(output)
 		(text "DATA_ADDR[31..0]" (rect 0 0 139 16)(font "Arial" (font_size 8)))
-		(text "DATA_ADDR[31..0]" (rect 93 27 232 43)(font "Arial" (font_size 8)))
-		(line (pt 224 32)(pt 208 32)(line_width 3))
+		(text "DATA_ADDR[31..0]" (rect 112 27 251 43)(font "Arial" (font_size 8)))
+		(line (pt 272 32)(pt 256 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 208 112))
+		(rectangle (rect 16 16 256 112))
 	)
 )
 (symbol
-	(rect 512 256 760 448)
+	(rect 512 256 824 448)
 	(text "MDR" (rect 5 0 41 16)(font "Arial" (font_size 8)))
-	(text "inst1" (rect 8 176 38 190)(font "Arial" ))
+	(text "inst1" (rect 8 174 38 188)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -315,27 +315,27 @@ applicable agreement for further details.
 		(line (pt 0 144)(pt 16 144))
 	)
 	(port
-		(pt 248 32)
+		(pt 312 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 152 27 248 43)(font "Arial" (font_size 8)))
-		(line (pt 248 32)(pt 232 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 195 27 291 43)(font "Arial" (font_size 8)))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
 	)
 	(port
-		(pt 248 48)
+		(pt 312 48)
 		(output)
 		(text "DATA_OUT[31..0]" (rect 0 0 128 16)(font "Arial" (font_size 8)))
-		(text "DATA_OUT[31..0]" (rect 126 43 254 59)(font "Arial" (font_size 8)))
-		(line (pt 248 48)(pt 232 48)(line_width 3))
+		(text "DATA_OUT[31..0]" (rect 163 43 291 59)(font "Arial" (font_size 8)))
+		(line (pt 312 48)(pt 296 48)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 232 176))
+		(rectangle (rect 16 16 296 176))
 	)
 )
 (symbol
-	(rect 496 464 776 592)
+	(rect 496 464 848 592)
 	(text "PC" (rect 5 0 28 16)(font "Arial" (font_size 8)))
-	(text "inst2" (rect 8 112 38 126)(font "Arial" ))
+	(text "inst2" (rect 8 110 38 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -372,27 +372,27 @@ applicable agreement for further details.
 		(line (pt 0 96)(pt 16 96))
 	)
 	(port
-		(pt 280 32)
+		(pt 352 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 184 27 280 43)(font "Arial" (font_size 8)))
-		(line (pt 280 32)(pt 264 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 235 27 331 43)(font "Arial" (font_size 8)))
+		(line (pt 352 32)(pt 336 32)(line_width 3))
 	)
 	(port
-		(pt 280 48)
+		(pt 352 48)
 		(output)
 		(text "PROGRAM_COUNTER[31..0]" (rect 0 0 212 16)(font "Arial" (font_size 8)))
-		(text "PROGRAM_COUNTER[31..0]" (rect 99 43 311 59)(font "Arial" (font_size 8)))
-		(line (pt 280 48)(pt 264 48)(line_width 3))
+		(text "PROGRAM_COUNTER[31..0]" (rect 119 43 331 59)(font "Arial" (font_size 8)))
+		(line (pt 352 48)(pt 336 48)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 264 112))
+		(rectangle (rect 16 16 336 112))
 	)
 )
 (symbol
-	(rect 512 816 760 976)
+	(rect 512 816 824 976)
 	(text "SP" (rect 5 0 27 16)(font "Arial" (font_size 8)))
-	(text "inst3" (rect 8 144 38 158)(font "Arial" ))
+	(text "inst3" (rect 8 142 38 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -436,20 +436,20 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
-		(pt 248 32)
+		(pt 312 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 152 27 248 43)(font "Arial" (font_size 8)))
-		(line (pt 248 32)(pt 232 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 195 27 291 43)(font "Arial" (font_size 8)))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 232 144))
+		(rectangle (rect 16 16 296 144))
 	)
 )
 (symbol
-	(rect 512 992 760 1152)
+	(rect 512 992 824 1152)
 	(text "LV" (rect 5 0 26 16)(font "Arial" (font_size 8)))
-	(text "inst4" (rect 8 144 39 158)(font "Arial" ))
+	(text "inst4" (rect 8 142 39 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -493,20 +493,20 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
-		(pt 248 32)
+		(pt 312 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 152 27 248 43)(font "Arial" (font_size 8)))
-		(line (pt 248 32)(pt 232 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 195 27 291 43)(font "Arial" (font_size 8)))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 232 144))
+		(rectangle (rect 16 16 296 144))
 	)
 )
 (symbol
-	(rect 512 1168 760 1328)
+	(rect 512 1168 824 1328)
 	(text "CPP" (rect 5 0 39 16)(font "Arial" (font_size 8)))
-	(text "inst5" (rect 8 144 38 158)(font "Arial" ))
+	(text "inst5" (rect 8 142 38 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -550,20 +550,20 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
-		(pt 248 32)
+		(pt 312 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 152 27 248 43)(font "Arial" (font_size 8)))
-		(line (pt 248 32)(pt 232 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 195 27 291 43)(font "Arial" (font_size 8)))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 232 144))
+		(rectangle (rect 16 16 296 144))
 	)
 )
 (symbol
-	(rect 544 1336 736 1464)
+	(rect 544 1336 776 1464)
 	(text "TOS" (rect 5 0 39 16)(font "Arial" (font_size 8)))
-	(text "inst6" (rect 8 112 38 126)(font "Arial" ))
+	(text "inst6" (rect 8 110 38 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -600,20 +600,20 @@ applicable agreement for further details.
 		(line (pt 0 96)(pt 16 96))
 	)
 	(port
-		(pt 192 32)
+		(pt 232 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 96 27 192 43)(font "Arial" (font_size 8)))
-		(line (pt 192 32)(pt 176 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 115 27 211 43)(font "Arial" (font_size 8)))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 112))
+		(rectangle (rect 16 16 216 112))
 	)
 )
 (symbol
-	(rect 544 1472 736 1600)
+	(rect 544 1472 776 1600)
 	(text "OPC" (rect 5 0 40 16)(font "Arial" (font_size 8)))
-	(text "inst7" (rect 8 112 38 126)(font "Arial" ))
+	(text "inst7" (rect 8 110 38 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -650,20 +650,20 @@ applicable agreement for further details.
 		(line (pt 0 96)(pt 16 96))
 	)
 	(port
-		(pt 192 32)
+		(pt 232 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 96 27 192 43)(font "Arial" (font_size 8)))
-		(line (pt 192 32)(pt 176 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 115 27 211 43)(font "Arial" (font_size 8)))
+		(line (pt 232 32)(pt 216 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 176 112))
+		(rectangle (rect 16 16 216 112))
 	)
 )
 (symbol
-	(rect 544 1616 752 1744)
+	(rect 544 1616 784 1744)
 	(text "H" (rect 5 0 16 16)(font "Arial" (font_size 8)))
-	(text "inst8" (rect 8 113 38 127)(font "Arial" ))
+	(text "inst8" (rect 8 110 38 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -693,20 +693,20 @@ applicable agreement for further details.
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
-		(pt 208 32)
+		(pt 240 32)
 		(output)
 		(text "OUT_A[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_A[31..0]" (rect 110 27 206 43)(font "Arial" (font_size 8)))
-		(line (pt 208 32)(pt 192 32)(line_width 3))
+		(text "OUT_A[31..0]" (rect 123 27 219 43)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 192 112))
+		(rectangle (rect 16 16 224 112))
 	)
 )
 (symbol
-	(rect 504 624 776 784)
+	(rect 504 624 840 784)
 	(text "MBR" (rect 5 0 40 16)(font "Arial" (font_size 8)))
-	(text "inst9" (rect 8 144 38 158)(font "Arial" ))
+	(text "inst9" (rect 8 142 38 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -750,21 +750,21 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112))
 	)
 	(port
-		(pt 272 32)
+		(pt 336 32)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 96 16)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 176 27 272 43)(font "Arial" (font_size 8)))
-		(line (pt 272 32)(pt 256 32)(line_width 3))
+		(text "OUT_B[31..0]" (rect 219 27 315 43)(font "Arial" (font_size 8)))
+		(line (pt 336 32)(pt 320 32)(line_width 3))
 	)
 	(port
-		(pt 272 48)
+		(pt 336 48)
 		(output)
 		(text "OUT_MBR[7..0]" (rect 0 0 112 16)(font "Arial" (font_size 8)))
-		(text "OUT_MBR[7..0]" (rect 165 43 277 59)(font "Arial" (font_size 8)))
-		(line (pt 272 48)(pt 256 48)(line_width 3))
+		(text "OUT_MBR[7..0]" (rect 203 43 315 59)(font "Arial" (font_size 8)))
+		(line (pt 336 48)(pt 320 48)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 256 144))
+		(rectangle (rect 16 16 320 144))
 	)
 )
 (symbol
@@ -961,11 +961,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 760 288)
-	(pt 1024 288)
-	(bus)
-)
-(connector
 	(text "LOAD" (rect 456 144 494 158)(font "Arial" ))
 	(pt 520 160)
 	(pt 448 160)
@@ -991,33 +986,13 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 760 848)
-	(pt 1024 848)
-	(bus)
-)
-(connector
-	(pt 760 1024)
-	(pt 1024 1024)
-	(bus)
-)
-(connector
 	(pt 512 1024)
 	(pt 312 1024)
 	(bus)
 )
 (connector
-	(pt 760 1200)
-	(pt 1024 1200)
-	(bus)
-)
-(connector
 	(pt 512 1200)
 	(pt 312 1200)
-	(bus)
-)
-(connector
-	(pt 736 1504)
-	(pt 1024 1504)
 	(bus)
 )
 (connector
@@ -1186,23 +1161,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 760 304)
-	(pt 776 304)
-	(bus)
-)
-(connector
-	(pt 776 512)
-	(pt 792 512)
-	(bus)
-)
-(connector
 	(pt 512 304)
 	(pt 496 304)
-	(bus)
-)
-(connector
-	(pt 776 672)
-	(pt 792 672)
 	(bus)
 )
 (connector
@@ -1216,11 +1176,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 736 1368)
-	(pt 1024 1368)
-	(bus)
-)
-(connector
 	(pt 1024 1200)
 	(pt 1024 1368)
 	(bus)
@@ -1228,16 +1183,6 @@ applicable agreement for further details.
 (connector
 	(pt 1024 1368)
 	(pt 1024 1504)
-	(bus)
-)
-(connector
-	(pt 776 496)
-	(pt 1024 496)
-	(bus)
-)
-(connector
-	(pt 776 656)
-	(pt 1024 656)
 	(bus)
 )
 (connector
@@ -1449,21 +1394,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "OUT_A[31..0]" (rect 811 1632 897 1646)(font "Arial" ))
-	(pt 752 1648)
-	(pt 880 1648)
-	(bus)
-)
-(connector
 	(text "OUT_A[31..0]" (rect 1064 184 1150 198)(font "Arial" ))
 	(pt 1088 200)
 	(pt 1032 200)
-	(bus)
-)
-(connector
-	(text "DATA_ADDR[31..0]" (rect 789 128 912 142)(font "Arial" ))
-	(pt 744 144)
-	(pt 824 144)
 	(bus)
 )
 (connector
@@ -1491,6 +1424,73 @@ applicable agreement for further details.
 	(text "MIR[2]" (rect 37 544 79 558)(font "Arial" ))
 	(pt -16 560)
 	(pt 80 560)
+)
+(connector
+	(pt 824 288)
+	(pt 1024 288)
+	(bus)
+)
+(connector
+	(pt 824 848)
+	(pt 1024 848)
+	(bus)
+)
+(connector
+	(pt 824 1024)
+	(pt 1024 1024)
+	(bus)
+)
+(connector
+	(pt 824 1200)
+	(pt 1024 1200)
+	(bus)
+)
+(connector
+	(pt 776 1504)
+	(pt 1024 1504)
+	(bus)
+)
+(connector
+	(pt 776 1368)
+	(pt 1024 1368)
+	(bus)
+)
+(connector
+	(pt 848 496)
+	(pt 1024 496)
+	(bus)
+)
+(connector
+	(pt 840 656)
+	(pt 1024 656)
+	(bus)
+)
+(connector
+	(text "OUT_A[31..0]" (rect 811 1632 897 1646)(font "Arial" ))
+	(pt 784 1648)
+	(pt 880 1648)
+	(bus)
+)
+(connector
+	(text "DATA_ADDR[31..0]" (rect 789 128 912 142)(font "Arial" ))
+	(pt 792 144)
+	(pt 872 144)
+	(bus)
+)
+(connector
+	(pt 824 304)
+	(pt 832 304)
+	(bus)
+)
+(connector
+	(pt 840 672)
+	(pt 856 672)
+	(bus)
+)
+(connector
+	(pt 848 512)
+	(pt 856 512)
+	(bus)
 )
 (junction (pt 312 144))
 (junction (pt 312 288))

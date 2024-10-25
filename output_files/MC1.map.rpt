@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MC1
-Thu Oct 24 22:35:07 2024
+Fri Oct 25 09:31:24 2024
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -43,7 +43,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 24 22:35:07 2024           ;
+; Analysis & Synthesis Status        ; Successful - Fri Oct 25 09:31:24 2024           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MC1                                             ;
 ; Top-level Entity Name              ; DATAPATH                                        ;
@@ -258,14 +258,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |REGISTER8bit:inst|      ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst             ; work         ;
 ;          |REGISTER32bit:inst42|      ; 124 (124)         ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42                              ; work         ;
 ;             |REGISTER8bit:inst|      ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst            ; work         ;
-;       |MDR:inst1|                    ; 81 (0)            ; 33 (1)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1                                                   ; work         ;
-;          |REGISTER32bit:inst1|       ; 81 (58)           ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1                               ; work         ;
+;       |MDR:inst1|                    ; 34 (0)            ; 33 (1)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1                                                   ; work         ;
+;          |REGISTER32bit:inst1|       ; 34 (11)           ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1                               ; work         ;
 ;             |REGISTER8bit:inst20|    ; 8 (8)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20           ; work         ;
 ;             |REGISTER8bit:inst22|    ; 8 (8)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22           ; work         ;
 ;             |REGISTER8bit:inst23|    ; 7 (7)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23           ; work         ;
 ;             |REGISTER8bit:inst|      ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst             ; work         ;
-;       |OPC:inst7|                    ; 2 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7                                                   ; work         ;
-;          |REGISTER32bit:inst1|       ; 2 (2)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1                               ; work         ;
+;       |OPC:inst7|                    ; 49 (0)            ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7                                                   ; work         ;
+;          |REGISTER32bit:inst1|       ; 49 (49)           ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1                               ; work         ;
 ;             |REGISTER8bit:inst20|    ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst20           ; work         ;
 ;             |REGISTER8bit:inst22|    ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst22           ; work         ;
 ;             |REGISTER8bit:inst23|    ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23           ; work         ;
@@ -392,30 +392,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst20|inst20 ; Stuck at GND due to stuck port data_in                                       ;
 ; BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst20|inst16 ; Stuck at GND due to stuck port data_in                                       ;
 ; BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst20|inst   ; Stuck at GND due to stuck port data_in                                       ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst    ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
 ; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst    ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst23|inst    ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
 ; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst    ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
-; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst22|inst    ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
 ; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst28  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12  ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5   ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
+; BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst20|inst    ; Merged with BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ;
 ; Total Number of Removed Registers = 48                              ;                                                                              ;
 +---------------------------------------------------------------------+------------------------------------------------------------------------------+
 
@@ -440,11 +440,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------+---------+
 ; Inverted Register                                                ; Fan out ;
 +------------------------------------------------------------------+---------+
-; BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst28  ; 1       ;
-; BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst28  ; 1       ;
 ; BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst|inst28 ; 1       ;
-; BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst16  ; 1       ;
+; BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst28  ; 1       ;
+; BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst28  ; 1       ;
 ; BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst16  ; 1       ;
+; BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst16  ; 1       ;
 ; Total number of inverted registers = 5                           ;         ;
 +------------------------------------------------------------------+---------+
 
@@ -454,7 +454,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -464,7 +464,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 24 22:35:04 2024
+    Info: Processing started: Fri Oct 25 09:31:21 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MC1 -c MC1
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file DECODER2_4.bdf
@@ -542,14 +542,14 @@ Info (12128): Elaborating entity "DECODER4_16" for hierarchy "BANK:inst|DECODER4
 Info (12128): Elaborating entity "DECODER2_4EN" for hierarchy "BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst"
 Info (12128): Elaborating entity "MDR" for hierarchy "BANK:inst|MDR:inst1"
 Info (12128): Elaborating entity "H" for hierarchy "BANK:inst|H:inst8"
-Info (12128): Elaborating entity "PC" for hierarchy "BANK:inst|PC:inst2"
-Info (12128): Elaborating entity "SP" for hierarchy "BANK:inst|SP:inst3"
-Info (12128): Elaborating entity "LV_initial_address" for hierarchy "BANK:inst|LV_initial_address:inst11"
-Info (12128): Elaborating entity "LV" for hierarchy "BANK:inst|LV:inst4"
+Info (12128): Elaborating entity "OPC" for hierarchy "BANK:inst|OPC:inst7"
+Info (12128): Elaborating entity "TOS" for hierarchy "BANK:inst|TOS:inst6"
 Info (12128): Elaborating entity "CPP" for hierarchy "BANK:inst|CPP:inst5"
 Info (12128): Elaborating entity "CPP_initial_address" for hierarchy "BANK:inst|CPP_initial_address:inst12"
-Info (12128): Elaborating entity "TOS" for hierarchy "BANK:inst|TOS:inst6"
-Info (12128): Elaborating entity "OPC" for hierarchy "BANK:inst|OPC:inst7"
+Info (12128): Elaborating entity "LV" for hierarchy "BANK:inst|LV:inst4"
+Info (12128): Elaborating entity "LV_initial_address" for hierarchy "BANK:inst|LV_initial_address:inst11"
+Info (12128): Elaborating entity "SP" for hierarchy "BANK:inst|SP:inst3"
+Info (12128): Elaborating entity "PC" for hierarchy "BANK:inst|PC:inst2"
 Warning (13044): Always-enabled tri-state buffer(s) removed
     Warning (13045): Converted the fanout from the always-enabled tri-state buffer "BANK:inst|MAR:inst|REGISTER32bit:inst1|inst6[31]" to the node "ADDRESS[31]" into a wire
     Warning (13045): Converted the fanout from the always-enabled tri-state buffer "BANK:inst|MAR:inst|REGISTER32bit:inst1|inst6[30]" to the node "ADDRESS[30]" into a wire
@@ -712,14 +712,14 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[20]" to the node "ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst10|inst1" into an OR gate
     Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[21]" to the node "ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst9|inst1" into an OR gate
     Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[15]" to the node "ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[7]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[6]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst2|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[5]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst9|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[4]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[3]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst11|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[2]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[1]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst13|inst1" into an OR gate
-    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|MDR:inst1|REGISTER32bit:inst1|inst5[0]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[7]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[6]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst2|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[5]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst9|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[4]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[3]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst11|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[1]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst13|inst1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]" to the node "ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst1" into an OR gate
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -743,8 +743,8 @@ Info (21057): Implemented 1066 device resources after synthesis - the final reso
     Info (21061): Implemented 786 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 184 warnings
     Info: Peak virtual memory: 345 megabytes
-    Info: Processing ended: Thu Oct 24 22:35:07 2024
+    Info: Processing ended: Fri Oct 25 09:31:24 2024
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
 
 
