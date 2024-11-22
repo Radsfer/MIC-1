@@ -1,6 +1,6 @@
 Analysis & Synthesis report for MC1
-Fri Oct 25 15:44:07 2024
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Wed Oct 30 18:30:17 2024
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -43,8 +43,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Oct 25 15:44:06 2024           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 30 18:30:17 2024           ;
+; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MC1                                             ;
 ; Top-level Entity Name              ; DATAPATH                                        ;
 ; Family                             ; Cyclone II                                      ;
@@ -150,42 +150,42 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 4      ;
+; Number detected on machine ; 8      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                      ; Library ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------+---------+
-; DECODER2_4.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/DECODER2_4.bdf          ;         ;
-; FULL_ADDER_1bit.bdf              ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/FULL_ADDER_1bit.bdf     ;         ;
-; ULA_1bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/ULA_1bit.bdf            ;         ;
-; ULA_8bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/ULA_8bit.bdf            ;         ;
-; ULA_32bit.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/ULA_32bit.bdf           ;         ;
-; SHIFTER.bdf                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/SHIFTER.bdf             ;         ;
-; REGISTER8bit.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/REGISTER8bit.bdf        ;         ;
-; REGISTER32bit.bdf                ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/REGISTER32bit.bdf       ;         ;
-; MAR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/MAR.bdf                 ;         ;
-; MDR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/MDR.bdf                 ;         ;
-; PC.bdf                           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/PC.bdf                  ;         ;
-; MBR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/MBR.bdf                 ;         ;
-; MBR_EXTENSOR.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/MBR_EXTENSOR.bdf        ;         ;
-; SP.bdf                           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/SP.bdf                  ;         ;
-; LV.bdf                           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/LV.bdf                  ;         ;
-; CPP.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/CPP.bdf                 ;         ;
-; TOS.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/TOS.bdf                 ;         ;
-; OPC.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/OPC.bdf                 ;         ;
-; H.bdf                            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/H.bdf                   ;         ;
-; BANK.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/BANK.bdf                ;         ;
-; LV_initial_address.bdf           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/LV_initial_address.bdf  ;         ;
-; CPP_initial_address.bdf          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/CPP_initial_address.bdf ;         ;
-; DECODER2_4EN.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/DECODER2_4EN.bdf        ;         ;
-; DECODER4_16.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/DECODER4_16.bdf         ;         ;
-; DATAPATH.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/DATAPATH.bdf            ;         ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                    ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
+; DECODER2_4.bdf                   ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/DECODER2_4.bdf          ;         ;
+; FULL_ADDER_1bit.bdf              ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/FULL_ADDER_1bit.bdf     ;         ;
+; ULA_1bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/ULA_1bit.bdf            ;         ;
+; ULA_8bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/ULA_8bit.bdf            ;         ;
+; ULA_32bit.bdf                    ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/ULA_32bit.bdf           ;         ;
+; SHIFTER.bdf                      ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/SHIFTER.bdf             ;         ;
+; REGISTER8bit.bdf                 ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/REGISTER8bit.bdf        ;         ;
+; REGISTER32bit.bdf                ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/REGISTER32bit.bdf       ;         ;
+; MAR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/MAR.bdf                 ;         ;
+; MDR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/MDR.bdf                 ;         ;
+; PC.bdf                           ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/PC.bdf                  ;         ;
+; MBR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/MBR.bdf                 ;         ;
+; MBR_EXTENSOR.bdf                 ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/MBR_EXTENSOR.bdf        ;         ;
+; SP.bdf                           ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/SP.bdf                  ;         ;
+; LV.bdf                           ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/LV.bdf                  ;         ;
+; CPP.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/CPP.bdf                 ;         ;
+; TOS.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/TOS.bdf                 ;         ;
+; OPC.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/OPC.bdf                 ;         ;
+; H.bdf                            ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/H.bdf                   ;         ;
+; BANK.bdf                         ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/BANK.bdf                ;         ;
+; LV_initial_address.bdf           ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/LV_initial_address.bdf  ;         ;
+; CPP_initial_address.bdf          ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/CPP_initial_address.bdf ;         ;
+; DECODER2_4EN.bdf                 ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/DECODER2_4EN.bdf        ;         ;
+; DECODER4_16.bdf                  ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/DECODER4_16.bdf         ;         ;
+; DATAPATH.bdf                     ; yes             ; User Block Diagram/Schematic File  ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/DATAPATH.bdf            ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -454,7 +454,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -462,68 +462,68 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
+Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 25 15:44:03 2024
+    Info: Processing started: Wed Oct 30 18:30:14 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MC1 -c MC1
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 1 design units, including 1 entities, in source file decoder2_4.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file DECODER2_4.bdf
     Info (12023): Found entity 1: DECODER2_4
-Info (12021): Found 1 design units, including 1 entities, in source file decoder3_8.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file DECODER3_8.bdf
     Info (12023): Found entity 1: DECODER3_8
-Info (12021): Found 1 design units, including 1 entities, in source file full_adder_1bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file FULL_ADDER_1bit.bdf
     Info (12023): Found entity 1: FULL_ADDER_1bit
-Info (12021): Found 1 design units, including 1 entities, in source file full_adder_8bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file FULL_ADDER_8bit.bdf
     Info (12023): Found entity 1: FULL_ADDER_8bit
-Info (12021): Found 1 design units, including 1 entities, in source file ula_1bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file ULA_1bit.bdf
     Info (12023): Found entity 1: ULA_1bit
-Info (12021): Found 1 design units, including 1 entities, in source file ula_8bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file ULA_8bit.bdf
     Info (12023): Found entity 1: ULA_8bit
-Info (12021): Found 1 design units, including 1 entities, in source file ula_32bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file ULA_32bit.bdf
     Info (12023): Found entity 1: ULA_32bit
-Info (12021): Found 1 design units, including 1 entities, in source file shifter.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file SHIFTER.bdf
     Info (12023): Found entity 1: SHIFTER
-Info (12021): Found 1 design units, including 1 entities, in source file register8bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file REGISTER8bit.bdf
     Info (12023): Found entity 1: REGISTER8bit
-Info (12021): Found 1 design units, including 1 entities, in source file register32bit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file REGISTER32bit.bdf
     Info (12023): Found entity 1: REGISTER32bit
-Info (12021): Found 1 design units, including 1 entities, in source file mar.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file MAR.bdf
     Info (12023): Found entity 1: MAR
-Info (12021): Found 1 design units, including 1 entities, in source file mdr.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file MDR.bdf
     Info (12023): Found entity 1: MDR
-Info (12021): Found 1 design units, including 1 entities, in source file pc.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file PC.bdf
     Info (12023): Found entity 1: PC
-Info (12021): Found 1 design units, including 1 entities, in source file mbr.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file MBR.bdf
     Info (12023): Found entity 1: MBR
-Info (12021): Found 1 design units, including 1 entities, in source file mbr_extensor.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file MBR_EXTENSOR.bdf
     Info (12023): Found entity 1: MBR_EXTENSOR
-Info (12021): Found 1 design units, including 1 entities, in source file sp.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file SP.bdf
     Info (12023): Found entity 1: SP
-Info (12021): Found 1 design units, including 1 entities, in source file lv.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file LV.bdf
     Info (12023): Found entity 1: LV
-Info (12021): Found 1 design units, including 1 entities, in source file cpp.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file CPP.bdf
     Info (12023): Found entity 1: CPP
-Info (12021): Found 1 design units, including 1 entities, in source file tos.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file TOS.bdf
     Info (12023): Found entity 1: TOS
-Info (12021): Found 1 design units, including 1 entities, in source file opc.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file OPC.bdf
     Info (12023): Found entity 1: OPC
-Info (12021): Found 1 design units, including 1 entities, in source file h.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file H.bdf
     Info (12023): Found entity 1: H
-Info (12021): Found 1 design units, including 1 entities, in source file bank.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file BANK.bdf
     Info (12023): Found entity 1: BANK
-Info (12021): Found 1 design units, including 1 entities, in source file lv_initial_address.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file LV_initial_address.bdf
     Info (12023): Found entity 1: LV_initial_address
-Info (12021): Found 1 design units, including 1 entities, in source file cpp_initial_address.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file CPP_initial_address.bdf
     Info (12023): Found entity 1: CPP_initial_address
-Info (12021): Found 1 design units, including 1 entities, in source file decode3_8_en.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file DECODE3_8_EN.bdf
     Info (12023): Found entity 1: DECODE3_8_EN
-Info (12021): Found 1 design units, including 1 entities, in source file decoder2_4en.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file DECODER2_4EN.bdf
     Info (12023): Found entity 1: DECODER2_4EN
-Info (12021): Found 1 design units, including 1 entities, in source file decoder4_16.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file DECODER4_16.bdf
     Info (12023): Found entity 1: DECODER4_16
 Info (12021): Found 1 design units, including 1 entities, in source file mem_test.bdf
     Info (12023): Found entity 1: mem_test
-Info (12021): Found 1 design units, including 1 entities, in source file datapath.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file DATAPATH.bdf
     Info (12023): Found entity 1: DATAPATH
 Info (12127): Elaborating entity "DATAPATH" for the top level hierarchy
 Info (12128): Elaborating entity "SHIFTER" for hierarchy "SHIFTER:inst2"
@@ -774,10 +774,10 @@ Info (21057): Implemented 1084 device resources after synthesis - the final reso
     Info (21058): Implemented 78 input pins
     Info (21059): Implemented 202 output pins
     Info (21061): Implemented 804 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 217 warnings
-    Info: Peak virtual memory: 4589 megabytes
-    Info: Processing ended: Fri Oct 25 15:44:07 2024
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 217 warnings
+    Info: Peak virtual memory: 350 megabytes
+    Info: Processing ended: Wed Oct 30 18:30:17 2024
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

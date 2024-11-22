@@ -1,6 +1,6 @@
 Simulator report for MC1
-Fri Oct 25 15:44:36 2024
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Mon Oct 28 19:05:16 2024
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -45,49 +45,49 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.6 us       ;
-; Simulation Netlist Size     ; 1194 nodes   ;
-; Simulation Coverage         ;      52.50 % ;
-; Total Number of Transitions ; 4781         ;
+; Simulation Netlist Size     ; 1185 nodes   ;
+; Simulation Coverage         ;      51.19 % ;
+; Total Number of Transitions ; 5487         ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone II   ;
 ; Device                      ; EP2C35F484C6 ;
 +-----------------------------+--------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulator Settings                                                                                                                                                   ;
-+--------------------------------------------------------------------------------------------+---------------------------------------------------------+---------------+
-; Option                                                                                     ; Setting                                                 ; Default Value ;
-+--------------------------------------------------------------------------------------------+---------------------------------------------------------+---------------+
-; Simulation mode                                                                            ; Timing                                                  ; Timing        ;
-; Start time                                                                                 ; 0 ns                                                    ; 0 ns          ;
-; Simulation results format                                                                  ; VWF                                                     ;               ;
-; Vector input source                                                                        ; C:/Users/Aluno/Desktop/Quartus/MIC-1-main/DATAPATH3.vwf ;               ;
-; Add pins automatically to simulation output waveforms                                      ; On                                                      ; On            ;
-; Check outputs                                                                              ; Off                                                     ; Off           ;
-; Report simulation coverage                                                                 ; On                                                      ; On            ;
-; Display complete 1/0 value coverage report                                                 ; On                                                      ; On            ;
-; Display missing 1-value coverage report                                                    ; On                                                      ; On            ;
-; Display missing 0-value coverage report                                                    ; On                                                      ; On            ;
-; Detect setup and hold time violations                                                      ; Off                                                     ; Off           ;
-; Detect glitches                                                                            ; Off                                                     ; Off           ;
-; Disable timing delays in Timing Simulation                                                 ; Off                                                     ; Off           ;
-; Generate Signal Activity File                                                              ; Off                                                     ; Off           ;
-; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                     ; Off           ;
-; Group bus channels in simulation results                                                   ; Off                                                     ; Off           ;
-; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                      ; On            ;
-; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                              ; INPUT_EDGE    ;
-; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                     ; Off           ;
-; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                     ;               ;
-; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                    ; Auto          ;
-+--------------------------------------------------------------------------------------------+---------------------------------------------------------+---------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                       ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                     ; Default Value ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Timing                                                      ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                        ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                         ;               ;
+; Vector input source                                                                        ; /home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/DATAPATH3.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                          ; On            ;
+; Check outputs                                                                              ; Off                                                         ; Off           ;
+; Report simulation coverage                                                                 ; On                                                          ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                          ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                          ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                          ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                         ; Off           ;
+; Detect glitches                                                                            ; Off                                                         ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                         ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                         ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                         ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                         ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                          ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                  ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                         ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                        ; Auto          ;
++--------------------------------------------------------------------------------------------+-------------------------------------------------------------+---------------+
 
 
 +----------------------+
 ; Simulation Waveforms ;
 +----------------------+
 Waveform report data cannot be output to ASCII.
-Please use Quartus II 64-Bit to view the waveform report data.
+Please use Quartus II 32-bit to view the waveform report data.
 
 
 +--------------------------------------------------------------------+
@@ -95,13 +95,13 @@ Please use Quartus II 64-Bit to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      52.50 % ;
-; Total nodes checked                                 ; 1194         ;
-; Total output ports checked                          ; 1181         ;
-; Total output ports with complete 1/0-value coverage ; 620          ;
-; Total output ports with no 1/0-value coverage       ; 535          ;
-; Total output ports with no 1-value coverage         ; 537          ;
-; Total output ports with no 0-value coverage         ; 559          ;
+; Total coverage as a percentage                      ;      51.19 % ;
+; Total nodes checked                                 ; 1185         ;
+; Total output ports checked                          ; 1172         ;
+; Total output ports with complete 1/0-value coverage ; 600          ;
+; Total output ports with no 1/0-value coverage       ; 545          ;
+; Total output ports with no 1-value coverage         ; 547          ;
+; Total output ports with no 0-value coverage         ; 570          ;
 +-----------------------------------------------------+--------------+
 
 
@@ -134,9 +134,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~0           ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~0           ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~0           ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~0           ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~0            ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~0            ; combout          ;
-; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst6~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst6~0                        ; combout          ;
-; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst5~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst5~0                        ; combout          ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~0                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~0                          ; combout          ;
 ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst4|inst2                         ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst4|inst2                         ; combout          ;
 ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst3|inst6~0                       ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst3|inst6~0                       ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~1                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~1                          ; combout          ;
@@ -149,6 +146,7 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~4                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~4                          ; combout          ;
 ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst2~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst2~0                        ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~5                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~5                          ; combout          ;
+; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~6                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~6                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst1~0                        ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst1~0                        ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst11~2                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst11~2                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|DECODER2_4:inst9|inst3~0       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|DECODER2_4:inst9|inst3~0       ; combout          ;
@@ -256,7 +254,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst12              ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst12              ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[3]~17                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[3]~17                           ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[3]~18                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[3]~18                           ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~0                         ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~1                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~1                         ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~19                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~19                           ; combout          ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                ; regout           ;
@@ -264,17 +261,14 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~22                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~22                           ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~23                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~23                           ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~0                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~1                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~1                          ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~24                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~24                           ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|inst6                             ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|inst6                             ; combout          ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst5[0]~0                            ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst5[0]~0                            ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~25                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~25                           ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~26                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~26                           ; combout          ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~27                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~27                           ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
-; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~28                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~28                           ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~29                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~29                           ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4~0    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4~0    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4~1    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4~1    ; combout          ;
@@ -285,7 +279,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[1]~33                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[1]~33                           ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[1]~34                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[1]~34                           ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~0                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~1                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~1                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst3~0  ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst3~0  ; combout          ;
@@ -308,14 +301,12 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[6]~45                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[6]~45                           ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[6]~46                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[6]~46                           ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|inst1~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|inst1~0                         ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~73                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~73                          ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~74                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~74                          ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~75                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~75                          ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~76                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[8]~76                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst1~0                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~0   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~0   ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~1   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~1   ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[10]~77                         ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[10]~77                         ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[10]~78                         ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[10]~78                         ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[10]~79                         ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[10]~79                         ; combout          ;
@@ -369,7 +360,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|inst1~0                        ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|inst1~0                        ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst1~0 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst1~0 ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst1   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst1   ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~0                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~1                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~1                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst11|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst11|inst11~0                       ; combout          ;
@@ -385,7 +375,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|inst11~0                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|inst11~1                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|inst11~1                       ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~0                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~1                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~1                       ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst2[27]~2                                                     ; |DATAPATH|SHIFTER:inst2|inst2[27]~2                                                     ; combout          ;
@@ -453,8 +442,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|SHIFTER:inst2|inst2[19]~11                                                    ; |DATAPATH|SHIFTER:inst2|inst2[19]~11                                                    ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst11~3                                                        ; |DATAPATH|SHIFTER:inst2|inst11~3                                                        ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst1~1                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst1~1                          ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~0                         ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst      ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst      ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~1                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~1                         ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst2[16]~12                                                    ; |DATAPATH|SHIFTER:inst2|inst2[16]~12                                                    ; combout          ;
@@ -497,7 +484,6 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst11~1                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst11~1                         ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst2[10]~20                                                    ; |DATAPATH|SHIFTER:inst2|inst2[10]~20                                                    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~0                         ; combout          ;
-; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~1                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~1                         ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~2                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~2                         ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst2[9]~21                                                     ; |DATAPATH|SHIFTER:inst2|inst2[9]~21                                                     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|inst1~0                           ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst|inst1~0                           ; combout          ;
@@ -655,82 +641,76 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder     ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst16~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder     ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst12~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8~feeder       ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8~feeder       ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst8~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder       ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder       ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder      ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst5~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst~feeder       ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst~feeder       ; combout          ;
+; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst~feeder       ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder      ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst28~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst24~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20~feeder      ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst20~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder       ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst22|inst16~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder     ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst12~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst~feeder        ; combout          ;
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst22|inst~feeder       ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst22|inst~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst~feeder       ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst28~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst28~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst28~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst28~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8~feeder       ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8~feeder       ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst8~feeder       ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder       ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder       ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder      ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst22|inst5~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder     ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst24~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder      ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder     ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst20~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst16~feeder      ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder     ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder     ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst12~feeder     ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder       ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder      ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder       ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder       ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~feeder      ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~feeder       ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~feeder       ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~feeder       ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst5~feeder       ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder        ; combout          ;
+; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder       ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder       ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder       ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder        ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst20|inst~feeder        ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder         ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder         ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder          ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder          ; combout          ;
-; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder           ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder           ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst12~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst12~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder         ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder         ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder         ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder         ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst16~feeder        ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst16~feeder        ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder          ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst~feeder          ; combout          ;
+; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst16~feeder       ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst16~feeder       ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst16~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst16~feeder        ; combout          ;
+; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder         ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder         ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder         ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder         ; combout          ;
-; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst24~feeder        ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst24~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst24~feeder       ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst24~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst24~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst24~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder        ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder       ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder     ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder     ; combout          ;
-; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder      ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder      ; combout          ;
-; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder       ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder      ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder        ; combout          ;
+; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder      ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder      ; combout          ;
+; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder     ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24~feeder     ; combout          ;
+; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst28~feeder         ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst28~feeder         ; combout          ;
+; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst28~feeder        ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst|inst28~feeder        ; combout          ;
+; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst28~feeder        ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst|inst28~feeder        ; combout          ;
 +-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
 
 
@@ -766,13 +746,15 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28              ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28              ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst6                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst6                          ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28              ; regout           ;
+; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst6~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst6~0                        ; combout          ;
+; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst5~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst5~0                        ; combout          ;
+; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~0                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~0                          ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; regout           ;
 ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; regout           ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~6                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~6                          ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24              ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24              ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst13|inst6                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst13|inst6                          ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24            ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24            ; regout           ;
@@ -912,15 +894,18 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst12               ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst12               ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst12             ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst12             ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst12              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst12              ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~0                         ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                 ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst6                            ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst6                            ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~20                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[2]~20                           ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst8              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst8              ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~0                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2~0   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2~0   ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2     ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
+; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst5[0]~0                            ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst5[0]~0                            ; combout          ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; regout           ;
@@ -932,6 +917,7 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst5                ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst5                ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst5              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst5              ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~0                          ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst20                ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst20                ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst12|inst6                           ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst12|inst6                           ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst20              ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst20              ; regout           ;
@@ -954,6 +940,7 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst24             ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst24             ; regout           ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst                ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst                ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst6                            ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst6                            ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; regout           ;
@@ -962,6 +949,7 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; regout           ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~1   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~1   ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst2     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst2     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8               ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8               ; regout           ;
@@ -1047,10 +1035,12 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~0                       ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst2[31]~0                                                     ; |DATAPATH|SHIFTER:inst2|inst2[31]~0                                                     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst6~0                                                         ; |DATAPATH|SHIFTER:inst2|inst6~0                                                         ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~0                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|inst6                           ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|inst6                           ; combout          ;
@@ -1058,7 +1048,10 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst14|inst6                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst14|inst6                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~0                         ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~1                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~1                         ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24             ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24             ; regout           ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; regout           ;
@@ -1273,9 +1266,6 @@ The following table displays output ports that do not toggle to 1 during simulat
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst4~clkctrl                         ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst4~clkctrl                         ; outclk           ;
 ; |DATAPATH|LOAD~clkctrl                                                                  ; |DATAPATH|LOAD~clkctrl                                                                  ; outclk           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder        ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder        ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder       ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MDR:inst1|inst13~feeder                                             ; |DATAPATH|BANK:inst|MDR:inst1|inst13~feeder                                             ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|inst13~feeder                                             ; |DATAPATH|BANK:inst|MBR:inst9|inst13~feeder                                             ; combout          ;
 +-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
 
@@ -1312,13 +1302,15 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28              ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28              ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst6                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst14|inst6                          ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst28              ; regout           ;
+; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst6~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst6~0                        ; combout          ;
+; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst5~0                        ; |DATAPATH|BANK:inst|DECODER4_16:inst10|DECODER2_4EN:inst|inst5~0                        ; combout          ;
+; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~0                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~0                          ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; regout           ;
 ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28            ; regout           ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~6                          ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst5[31]~6                          ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24              ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24              ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst13|inst6                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst13|inst6                          ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24            ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24            ; regout           ;
@@ -1467,6 +1459,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst12               ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst12               ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst12             ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst12             ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst12              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst12              ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst10|inst1~0                         ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                 ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst6                            ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst6                            ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; regout           ;
@@ -1477,16 +1470,19 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst8                ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst8              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst8              ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8               ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|inst1~0                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2~0   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2~0   ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst2     ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst                  ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst                  ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
+; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst5[0]~0                            ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst5[0]~0                            ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
 ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
 ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; regout           ;
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst|inst                ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst                 ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst               ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst               ; regout           ;
+; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~28                           ; |DATAPATH|BANK:inst|OPC:inst7|REGISTER32bit:inst1|inst5[0]~28                           ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst5                 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst5                 ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst6                            ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst6                            ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; regout           ;
@@ -1496,6 +1492,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst5                ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst|inst5                ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst5              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst5              ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5               ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~0                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst1~0                          ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst20                ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst|inst20                ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst12|inst6                           ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst12|inst6                           ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst20              ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst|inst20              ; regout           ;
@@ -1518,6 +1515,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst24             ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|REGISTER8bit:inst|inst24             ; regout           ;
 ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; |DATAPATH|BANK:inst|MDR:inst1|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; regout           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst24              ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst13|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst                ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst                ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst6                            ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst6                            ; combout          ;
 ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; |DATAPATH|BANK:inst|TOS:inst6|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; regout           ;
@@ -1526,6 +1524,7 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst20|inst              ; regout           ;
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst20|inst               ; regout           ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~1   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst3~1   ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst2     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst2     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8               ; |DATAPATH|BANK:inst|H:inst8|REGISTER32bit:inst1|REGISTER8bit:inst20|inst8               ; regout           ;
@@ -1611,10 +1610,12 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; |DATAPATH|BANK:inst|PC:inst2|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; regout           ;
 ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; |DATAPATH|BANK:inst|SP:inst3|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; regout           ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|inst11~0                       ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst2[31]~0                                                     ; |DATAPATH|SHIFTER:inst2|inst2[31]~0                                                     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst10|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
 ; |DATAPATH|SHIFTER:inst2|inst6~0                                                         ; |DATAPATH|SHIFTER:inst2|inst6~0                                                         ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst9|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~0                       ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst10|inst11~0                       ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst4|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|inst6                           ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst2|inst6                           ; combout          ;
@@ -1622,7 +1623,10 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst3|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst14|inst6                          ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst14|inst6                          ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst12|FULL_ADDER_1bit:inst10|inst4   ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~0                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|inst11~0                         ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4    ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst14|FULL_ADDER_1bit:inst10|inst4    ; combout          ;
 ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst2|ULA_1bit:inst|FULL_ADDER_1bit:inst10|inst4     ; combout          ;
+; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~1                         ; |DATAPATH|ULA_32bit:inst1|ULA_8bit:inst|ULA_1bit:inst2|inst11~1                         ; combout          ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst28             ; regout           ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24             ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst24             ; regout           ;
 ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; |DATAPATH|BANK:inst|MAR:inst|REGISTER32bit:inst1|REGISTER8bit:inst23|inst20             ; regout           ;
@@ -1841,9 +1845,6 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst4~clkctrl                        ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst42|inst4~clkctrl                        ; outclk           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst4~clkctrl                         ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|inst4~clkctrl                         ; outclk           ;
 ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder        ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst8~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder        ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst5~feeder        ; combout          ;
-; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder       ; |DATAPATH|BANK:inst|MBR:inst9|REGISTER32bit:inst1|REGISTER8bit:inst|inst20~feeder       ; combout          ;
-; |DATAPATH|BANK:inst|MDR:inst1|inst13~feeder                                             ; |DATAPATH|BANK:inst|MDR:inst1|inst13~feeder                                             ; combout          ;
 ; |DATAPATH|BANK:inst|MBR:inst9|inst13~feeder                                             ; |DATAPATH|BANK:inst|MBR:inst9|inst13~feeder                                             ; combout          ;
 +-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------+
 
@@ -1859,11 +1860,11 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; Simulator Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Simulator
+Info: Running Quartus II 32-bit Simulator
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 25 15:44:35 2024
+    Info: Processing started: Mon Oct 28 19:05:16 2024
 Info: Command: quartus_sim --simulation_results_format=VWF MC1 -c MC1
-Info (324025): Using vector source file "C:/Users/Aluno/Desktop/Quartus/MIC-1-main/DATAPATH3.vwf"
+Info (324025): Using vector source file "/home/radsfer/shared/MIC1_Rafael_Adolfo/MIC-1/DATAPATH3.vwf"
 Info (328054): Inverted registers were found during simulation
     Info (328055): Register: |DATAPATH|BANK:inst|CPP:inst5|REGISTER32bit:inst1|REGISTER8bit:inst|inst28
     Info (328055): Register: |DATAPATH|BANK:inst|LV:inst4|REGISTER32bit:inst1|REGISTER8bit:inst|inst28
@@ -1873,13 +1874,13 @@ Info (328054): Inverted registers were found during simulation
 Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info (310002): Simulation partitioned into 1 sub-simulations
-Info (328053): Simulation coverage is      52.50 %
-Info (328052): Number of transitions in simulation is 4781
+Info (328053): Simulation coverage is      51.19 %
+Info (328052): Number of transitions in simulation is 5487
 Info (324045): Vector file MC1.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
-Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4480 megabytes
-    Info: Processing ended: Fri Oct 25 15:44:36 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+Info: Quartus II 32-bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 291 megabytes
+    Info: Processing ended: Mon Oct 28 19:05:16 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 
