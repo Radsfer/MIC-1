@@ -2,38 +2,45 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module DATAPATH
+# -- Compiling module CONTROL_UNITY
 # 
 # Top level modules:
-# 	DATAPATH
+# 	CONTROL_UNITY
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module DATAPATH_vlg_sample_tst
-# -- Compiling module DATAPATH_vlg_check_tst
-# -- Compiling module DATAPATH_vlg_vec_tst
+# -- Compiling module CONTROL_UNITY_vlg_sample_tst
+# -- Compiling module CONTROL_UNITY_vlg_check_tst
+# -- Compiling module CONTROL_UNITY_vlg_vec_tst
 # 
 # Top level modules:
-# 	DATAPATH_vlg_vec_tst
-# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.DATAPATH_vlg_vec_tst 
-# Loading work.DATAPATH_vlg_vec_tst
-# Loading work.DATAPATH
+# 	CONTROL_UNITY_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.CONTROL_UNITY_vlg_vec_tst 
+# Loading work.CONTROL_UNITY_vlg_vec_tst
+# Loading work.CONTROL_UNITY
 # Loading cycloneii_ver.cycloneii_lcell_ff
-# Loading cycloneii_ver.cycloneii_lcell_comb
 # Loading cycloneii_ver.cycloneii_io
 # Loading cycloneii_ver.cycloneii_mux21
 # Loading cycloneii_ver.cycloneii_dffe
 # Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
 # Loading cycloneii_ver.cycloneii_clkctrl
 # Loading cycloneii_ver.cycloneii_mux41
 # Loading cycloneii_ver.cycloneii_ena_reg
-# Loading work.DATAPATH_vlg_sample_tst
-# Loading work.DATAPATH_vlg_check_tst
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading work.CONTROL_UNITY_vlg_sample_tst
+# Loading work.CONTROL_UNITY_vlg_check_tst
 # SDF 10.1d Compiler 2012.11 Nov  2 2012
 # 
 # Loading instances from MC1_v.sdo
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
 # Loading timing data from MC1_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /DATAPATH_vlg_vec_tst File: MC1.vt
+#    Time: 0 ps  Iteration: 0  Instance: /CONTROL_UNITY_vlg_vec_tst File: MC1.vt
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(476): $setup( d:1402388 ps, posedge clk &&& reset:1402399 ps, 35 ps );
+#    Time: 1402399 ps  Iteration: 0  Instance: /CONTROL_UNITY_vlg_vec_tst/i1/\inst|altsyncram_component|auto_generated|ram_block1a9 /addr_a_register
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(476): $setup( d:1402403 ps, posedge clk &&& reset:1402413 ps, 35 ps );
+#    Time: 1402413 ps  Iteration: 0  Instance: /CONTROL_UNITY_vlg_vec_tst/i1/\inst|altsyncram_component|auto_generated|ram_block1a18 /addr_a_register
 # Simulation passed !
-# ** Note: $finish    : MC1.vt(2058)
-#    Time: 1600 ns  Iteration: 0  Instance: /DATAPATH_vlg_vec_tst/tb_out
+# ** Note: $finish    : MC1.vt(953)
+#    Time: 1800 ns  Iteration: 0  Instance: /CONTROL_UNITY_vlg_vec_tst/tb_out
