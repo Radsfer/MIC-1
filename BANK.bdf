@@ -1214,19 +1214,9 @@ applicable agreement for further details.
 	(pt 232 544)
 )
 (connector
-	(text "S2" (rect 456 656 468 668)(font "Arial" ))
-	(pt 448 672)
-	(pt 504 672)
-)
-(connector
 	(text "S3" (rect 184 544 196 556)(font "Arial" ))
 	(pt 176 560)
 	(pt 232 560)
-)
-(connector
-	(text "S3" (rect 456 720 468 732)(font "Arial" ))
-	(pt 448 736)
-	(pt 504 736)
 )
 (connector
 	(text "S4" (rect 184 560 196 572)(font "Arial" ))
@@ -1479,6 +1469,16 @@ applicable agreement for further details.
 	(pt 760 304)
 	(pt 832 304)
 	(bus)
+)
+(connector
+	(text "S3" (rect 456 656 468 668)(font "Arial" ))
+	(pt 448 672)
+	(pt 504 672)
+)
+(connector
+	(text "S2" (rect 456 720 468 732)(font "Arial" ))
+	(pt 448 736)
+	(pt 504 736)
 )
 (junction (pt 312 144))
 (junction (pt 312 288))
