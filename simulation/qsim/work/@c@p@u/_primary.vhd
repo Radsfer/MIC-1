@@ -8,9 +8,6 @@ entity CPU is
         PROG_MEM_IN     : in     vl_logic_vector(7 downto 0);
         DATA_MEM_IN     : in     vl_logic_vector(31 downto 0);
         MIR             : out    vl_logic_vector(35 downto 0);
-        A               : out    vl_logic_vector(31 downto 0);
-        B               : out    vl_logic_vector(31 downto 0);
-        C               : out    vl_logic_vector(31 downto 0);
         DATA_MEM_ADDR   : out    vl_logic_vector(31 downto 0);
         DATA_MEM_OUT    : out    vl_logic_vector(31 downto 0);
         MBR_OUT         : out    vl_logic_vector(7 downto 0);

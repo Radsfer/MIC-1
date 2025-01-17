@@ -92,57 +92,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 488 160 536 192)
-	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
-	(text "inst3" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 32 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 14 7)(pt 32 16))
-		(line (pt 14 25)(pt 14 7))
-		(line (pt 14 25)(pt 32 16))
-	)
-)
-(symbol
 	(rect 488 192 536 224)
 	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 32 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 14 7)(pt 32 16))
-		(line (pt 14 25)(pt 14 7))
-		(line (pt 14 25)(pt 32 16))
-	)
-)
-(symbol
-	(rect 496 304 544 336)
-	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
-	(text "inst5" (rect 3 21 26 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -193,61 +145,15 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 456 176)
-	(pt 488 176)
-)
-(connector
 	(pt 488 208)
 	(pt 456 208)
-)
-(connector
-	(pt 456 160)
-	(pt 456 176)
-)
-(connector
-	(pt 456 176)
-	(pt 456 208)
-)
-(connector
-	(text "LV_INIT[4]" (rect 537 160 590 172)(font "Arial" ))
-	(pt 536 176)
-	(pt 584 176)
-)
-(connector
-	(text "LV_INIT[7]" (rect 537 192 590 204)(font "Arial" ))
-	(pt 536 208)
-	(pt 584 208)
-)
-(connector
-	(text "LV_INIT[31..8]" (rect 571 264 642 276)(font "Arial" ))
-	(pt 544 280)
-	(pt 592 280)
-	(bus)
 )
 (connector
 	(pt 496 280)
 	(pt 464 280)
 )
 (connector
-	(pt 496 320)
-	(pt 464 320)
-)
-(connector
-	(text "LV_INIT[6..5]" (rect 571 304 637 316)(font "Arial" ))
-	(pt 544 320)
-	(pt 592 320)
-	(bus)
-)
-(connector
-	(pt 464 280)
-	(pt 464 320)
-)
-(connector
 	(pt 496 360)
-	(pt 464 360)
-)
-(connector
-	(pt 464 320)
 	(pt 464 360)
 )
 (connector
@@ -255,11 +161,28 @@ applicable agreement for further details.
 	(pt 464 400)
 )
 (connector
-	(text "LV_INIT[3..0]" (rect 571 344 637 356)(font "Arial" ))
+	(pt 456 160)
+	(pt 456 208)
+)
+(connector
+	(text "LV_INIT[6]" (rect 537 192 590 204)(font "Arial" ))
+	(pt 536 208)
+	(pt 584 208)
+)
+(connector
+	(pt 464 280)
+	(pt 464 360)
+)
+(connector
+	(text "LV_INIT[31..7]" (rect 571 264 642 276)(font "Arial" ))
+	(pt 544 280)
+	(pt 592 280)
+	(bus)
+)
+(connector
+	(text "LV_INIT[5..0]" (rect 571 344 637 356)(font "Arial" ))
 	(pt 544 360)
 	(pt 592 360)
 	(bus)
 )
-(junction (pt 456 176))
-(junction (pt 464 320))
 (junction (pt 464 360))

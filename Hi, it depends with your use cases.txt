@@ -1,0 +1,18 @@
+Hi, it depends with your use cases for rust.  Anyway, please go through these materials:
+
+1. The Rust Book
+2. Programming Rust book. 
+3. Async Rust book.
+4. The rustlings - a great place to get started with learning rust in a practical way, that is project based
+ 
+For advanced Rust
+1. The Rustonomicon - if you prefer to go bare metal. Away from web development.
+2. Rust in action by Tim McNamara - the code examples used are geared towards systems programming.
+3. Rust for Rustaceans by Jon Gjengset - Great info is shared here
+
+For web development:
+1. Zero to production in Rust - it teaches you how to write production ready idiomatic Rust code. A lot of concepts will be covered.
+
+More to be added later coz the resources are so many.
+
+Edit: Thank you so much for your feedback. I was able to add some books to the list. More to come

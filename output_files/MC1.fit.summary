@@ -1,16 +1,16 @@
-Fitter Status : Successful - Mon Dec 09 12:15:56 2024
-Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Fitter Status : Successful - Fri Jan 17 14:59:18 2025
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : MC1
-Top-level Entity Name : CPU
+Top-level Entity Name : MIC1
 Family : Cyclone II
-Device : EP2C35F672C6
+Device : EP2C15AF484C6
 Timing Models : Final
-Total logic elements : 634 / 33,216 ( 2 % )
-    Total combinational functions : 514 / 33,216 ( 2 % )
-    Dedicated logic registers : 317 / 33,216 ( < 1 % )
+Total logic elements : 597 / 14,448 ( 4 % )
+    Total combinational functions : 463 / 14,448 ( 3 % )
+    Dedicated logic registers : 317 / 14,448 ( 2 % )
 Total registers : 317
-Total pins : 288 / 475 ( 61 % )
+Total pins : 216 / 315 ( 69 % )
 Total virtual pins : 0
-Total memory bits : 18,432 / 483,840 ( 4 % )
-Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total memory bits : 51,200 / 239,616 ( 21 % )
+Embedded Multiplier 9-bit elements : 0 / 52 ( 0 % )
 Total PLLs : 0 / 4 ( 0 % )

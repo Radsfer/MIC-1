@@ -85,9 +85,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 848 312 1024 328)
+	(rect 1224 392 1400 408)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DATA_MEM_write_enable" (rect 90 0 213 12)(font "Arial" ))
+	(text "DATA_MEM_OUT[31..0]" (rect 90 0 208 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -101,9 +101,25 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1224 392 1400 408)
+	(rect 1224 376 1400 392)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DATA_MEM_OUT[31..0]" (rect 90 0 208 12)(font "Arial" ))
+	(text "DATA_MEM_ADDR[31..0]" (rect 90 0 217 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 848 312 1024 328)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DATA_MEM_write_enable" (rect 90 0 213 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -133,7 +149,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1280 448 1456 464)
+	(rect 1288 560 1464 576)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "MBR_OUT[7..0]" (rect 90 0 167 12)(font "Arial" ))
 	(pt 0 8)
@@ -181,9 +197,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1224 376 1400 392)
+	(rect 1096 504 1272 520)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DATA_MEM_ADDR[31..0]" (rect 90 0 217 12)(font "Arial" ))
+	(text "C_Bus[31..0]" (rect 90 0 154 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -383,103 +399,14 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "write_enable" (rect 776 296 836 308)(font "Arial" ))
-	(pt 792 320)
-	(pt 848 320)
-)
-(connector
-	(pt 128 576)
-	(pt 1224 576)
-)
-(connector
 	(text "LOADN" (rect 283 184 320 196)(font "Arial" ))
 	(pt 264 200)
 	(pt 360 200)
 )
 (connector
-	(pt 88 624)
-	(pt 1256 624)
-	(bus)
-)
-(connector
-	(text "<<__$DEF_ALIAS95>>" (rect 303 152 415 164)(font "Arial" )(invisible))
-	(pt 264 168)
-	(pt 352 168)
-)
-(connector
-	(text "<<__$DEF_ALIAS340>>" (rect 1245 440 1363 452)(font "Arial" )(invisible))
-	(pt 1256 456)
-	(pt 1280 456)
-	(bus)
-)
-(connector
-	(text "MPC[8..0]" (rect 433 384 482 396)(font "Arial" ))
-	(pt 432 400)
-	(pt 512 400)
-	(bus)
-)
-(connector
-	(pt 128 432)
-	(pt 232 432)
-)
-(connector
-	(text "write_enable" (rect 440 400 500 412)(font "Arial" ))
-	(pt 432 416)
-	(pt 504 416)
-)
-(connector
-	(pt 128 576)
-	(pt 128 432)
-)
-(connector
-	(pt 88 624)
-	(pt 88 384)
-	(bus)
-)
-(connector
-	(pt 88 384)
-	(pt 232 384)
-	(bus)
-)
-(connector
 	(text "DATA_MEM_IN[31..0]" (rect 704 416 811 428)(font "Arial" ))
 	(pt 696 432)
 	(pt 776 432)
-	(bus)
-)
-(connector
-	(text "PROG_MEM_IN[7..0]" (rect 735 432 840 444)(font "Arial" ))
-	(pt 680 448)
-	(pt 776 448)
-	(bus)
-)
-(connector
-	(pt 1224 576)
-	(pt 1224 464)
-)
-(connector
-	(pt 1224 464)
-	(pt 1000 464)
-)
-(connector
-	(pt 1256 432)
-	(pt 1000 432)
-	(bus)
-)
-(connector
-	(text "MIR[35..0]" (rect 729 368 780 380)(font "Arial" ))
-	(pt 432 384)
-	(pt 776 384)
-	(bus)
-)
-(connector
-	(pt 1256 432)
-	(pt 1256 456)
-	(bus)
-)
-(connector
-	(pt 1256 456)
-	(pt 1256 624)
 	(bus)
 )
 (connector
@@ -513,25 +440,78 @@ applicable agreement for further details.
 	(pt 776 416)
 )
 (connector
-	(pt 104 416)
-	(pt 104 600)
-)
-(connector
+	(text "N" (rect 1152 432 1160 444)(font "Arial" ))
 	(pt 1240 448)
-	(pt 1240 600)
+	(pt 1000 448)
 )
 (connector
-	(pt 104 600)
-	(pt 1240 600)
+	(text "Z" (rect 1126 448 1133 460)(font "Arial" ))
+	(pt 1224 464)
+	(pt 1000 464)
 )
 (connector
-	(text "<<__$DEF_ALIAS898>>" (rect 176 400 294 412)(font "Arial" )(invisible))
+	(text "N" (rect 198 400 206 412)(font "Arial" ))
 	(pt 104 416)
 	(pt 232 416)
 )
 (connector
-	(text "<<__$DEF_ALIAS900>>" (rect 1174 432 1292 444)(font "Arial" )(invisible))
-	(pt 1240 448)
-	(pt 1000 448)
+	(text "Z" (rect 195 416 202 428)(font "Arial" ))
+	(pt 128 432)
+	(pt 232 432)
 )
-(junction (pt 1256 456))
+(connector
+	(text "MBR[7..0]" (rect 1008 416 1057 428)(font "Arial" ))
+	(pt 1256 432)
+	(pt 1000 432)
+	(bus)
+)
+(connector
+	(text "MBR[7..0]" (rect 1261 552 1310 564)(font "Arial" ))
+	(pt 1216 568)
+	(pt 1288 568)
+	(bus)
+)
+(connector
+	(text "MBR[7..0]" (rect 120 368 169 380)(font "Arial" ))
+	(pt 88 384)
+	(pt 232 384)
+	(bus)
+)
+(connector
+	(text "CLOCK" (rect 319 152 356 164)(font "Arial" ))
+	(pt 264 168)
+	(pt 352 168)
+)
+(connector
+	(text "write_enable" (rect 776 296 836 308)(font "Arial" ))
+	(pt 792 320)
+	(pt 848 320)
+)
+(connector
+	(text "PROG_MEM_IN[7..0]" (rect 615 432 720 444)(font "Arial" ))
+	(pt 608 448)
+	(pt 776 448)
+	(bus)
+)
+(connector
+	(pt 1000 512)
+	(pt 1096 512)
+	(bus)
+)
+(connector
+	(text "MIR[35..0]" (rect 729 368 780 380)(font "Arial" ))
+	(pt 432 384)
+	(pt 776 384)
+	(bus)
+)
+(connector
+	(text "MPC[8..0]" (rect 513 384 562 396)(font "Arial" ))
+	(pt 432 400)
+	(pt 552 400)
+	(bus)
+)
+(connector
+	(text "write_enable" (rect 488 400 548 412)(font "Arial" ))
+	(pt 432 416)
+	(pt 552 416)
+)

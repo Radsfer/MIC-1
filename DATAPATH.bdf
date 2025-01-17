@@ -372,9 +372,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1744 208 2000 304)
+	(rect 1744 208 1952 304)
 	(text "SHIFTER" (rect 5 0 53 14)(font "Arial" (font_size 8)))
-	(text "inst2" (rect 8 78 31 90)(font "Arial" ))
+	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -390,28 +390,28 @@ applicable agreement for further details.
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
-		(pt 256 32)
+		(pt 208 32)
 		(output)
 		(text "OUTPUT[31..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
-		(text "OUTPUT[31..0]" (rect 127 27 209 41)(font "Arial" (font_size 8)))
-		(line (pt 256 32)(pt 240 32)(line_width 3))
+		(text "OUTPUT[31..0]" (rect 105 27 187 41)(font "Arial" (font_size 8)))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
 	(port
-		(pt 256 48)
+		(pt 208 48)
 		(output)
 		(text "N" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "N" (rect 224 43 232 57)(font "Arial" (font_size 8)))
-		(line (pt 256 48)(pt 240 48))
+		(text "N" (rect 179 43 187 57)(font "Arial" (font_size 8)))
+		(line (pt 208 48)(pt 192 48))
 	)
 	(port
-		(pt 256 64)
+		(pt 208 64)
 		(output)
 		(text "Z" (rect 0 0 8 14)(font "Arial" (font_size 8)))
-		(text "Z" (rect 224 59 232 73)(font "Arial" (font_size 8)))
-		(line (pt 256 64)(pt 240 64))
+		(text "Z" (rect 179 59 187 73)(font "Arial" (font_size 8)))
+		(line (pt 208 64)(pt 192 64))
 	)
 	(drawing
-		(rectangle (rect 16 16 240 80))
+		(rectangle (rect 16 16 192 80))
 	)
 )
 (connector
@@ -538,21 +538,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2016 240)
-	(pt 2000 240)
-	(bus)
-)
-(connector
-	(text "N" (rect 2038 240 2046 252)(font "Arial" ))
-	(pt 2000 256)
-	(pt 2056 256)
-)
-(connector
-	(text "Z" (rect 2040 256 2047 268)(font "Arial" ))
-	(pt 2000 272)
-	(pt 2056 272)
-)
-(connector
 	(pt 1616 240)
 	(pt 1744 240)
 	(bus)
@@ -603,8 +588,19 @@ applicable agreement for further details.
 	(pt 824 256)
 )
 (connector
-	(pt 784 448)
-	(pt 792 448)
+	(pt 1952 240)
+	(pt 2016 240)
+	(bus)
+)
+(connector
+	(text "N" (rect 1990 240 1998 252)(font "Arial" ))
+	(pt 1952 256)
+	(pt 2008 256)
+)
+(connector
+	(text "Z" (rect 1992 256 1999 268)(font "Arial" ))
+	(pt 1952 272)
+	(pt 2008 272)
 )
 (connector
 	(text "LOAD" (rect 815 432 844 444)(font "Arial" ))
@@ -614,4 +610,3 @@ applicable agreement for further details.
 (junction (pt 1336 240))
 (junction (pt 1328 256))
 (junction (pt 1320 160))
-(junction (pt 792 448))

@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 320 312 496 328)
+	(rect 240 328 416 344)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CLOCK" (rect 9 0 46 12)(font "Arial" ))
 	(pt 176 8)
@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 320 264 488 280)
+	(rect 152 264 320 280)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "MBR_IN[7..0]" (rect 5 0 72 12)(font "Arial" ))
 	(pt 168 8)
@@ -400,10 +400,55 @@ applicable agreement for further details.
 		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
-(connector
-	(text "CLOCK" (rect 497 304 534 316)(font "Arial" ))
-	(pt 496 320)
-	(pt 528 320)
+(symbol
+	(rect 488 248 552 328)
+	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
+	(text "inst2" (rect 3 68 26 80)(font "Arial" ))
+	(port
+		(pt 32 80)
+		(input)
+		(text "CLRN" (rect 21 59 44 71)(font "Courier New" (bold)))
+		(text "CLRN" (rect 21 58 44 70)(font "Courier New" (bold)))
+		(line (pt 32 80)(pt 32 76))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "CLK" (rect 3 29 20 41)(font "Courier New" (bold))(invisible))
+		(text "CLK" (rect 3 29 20 41)(font "Courier New" (bold))(invisible))
+		(line (pt 0 40)(pt 12 40))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "D" (rect 14 20 19 32)(font "Courier New" (bold)))
+		(text "D" (rect 14 20 19 32)(font "Courier New" (bold)))
+		(line (pt 0 24)(pt 12 24))
+	)
+	(port
+		(pt 32 0)
+		(input)
+		(text "PRN" (rect 24 13 41 25)(font "Courier New" (bold)))
+		(text "PRN" (rect 24 11 41 23)(font "Courier New" (bold)))
+		(line (pt 32 4)(pt 32 0))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "Q" (rect 45 20 50 32)(font "Courier New" (bold)))
+		(text "Q" (rect 43 20 48 32)(font "Courier New" (bold)))
+		(line (pt 52 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 12 12)(pt 52 12))
+		(line (pt 12 68)(pt 52 68))
+		(line (pt 52 68)(pt 52 12))
+		(line (pt 12 68)(pt 12 12))
+		(line (pt 19 40)(pt 12 47))
+		(line (pt 12 32)(pt 20 40))
+		(circle (rect 28 4 36 12))
+		(circle (rect 28 68 36 76))
+	)
 )
 (connector
 	(pt 488 376)
@@ -449,11 +494,6 @@ applicable agreement for further details.
 (connector
 	(pt 792 368)
 	(pt 808 368)
-)
-(connector
-	(pt 488 272)
-	(pt 728 272)
-	(bus)
 )
 (connector
 	(pt 792 264)
@@ -540,5 +580,27 @@ applicable agreement for further details.
 	(pt 888 296)
 	(pt 1032 296)
 	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS256>>" (rect 682 248 800 260)(font "Arial" )(invisible))
+	(pt 728 272)
+	(pt 552 272)
+	(bus)
+)
+(connector
+	(text "CLOCK" (rect 444 272 481 284)(font "Arial" ))
+	(pt 424 288)
+	(pt 488 288)
+)
+(connector
+	(text "<<__$DEF_ALIAS258>>" (rect 438 256 556 268)(font "Arial" )(invisible))
+	(pt 320 272)
+	(pt 488 272)
+	(bus)
+)
+(connector
+	(text "CLOCK" (rect 417 320 454 332)(font "Arial" ))
+	(pt 416 336)
+	(pt 448 336)
 )
 (junction (pt 584 424))
